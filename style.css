@@ -51,8 +51,14 @@ a:hover {
 
 form {
     padding: 16px 16px;
-    background-color: #ff0000;
-    text-align: center;
+    background-color: darksalmon;
     max-width: 80%;
     margin: auto;
+    text-align: center;
+    display: block;
+    border-radius: 12px;
+}
+
+#username {
+    border-radius: none;
 }
