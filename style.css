@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.form-button {
+    background-color: aquamarine;
+    border-radius: 4px;
+    padding: 12px;
+    display: block;
+    margin: 0 auto;
+}
+.form-button:hover {
+    background-color: lightgrey;
+}
+
+footer {
+    bottom: 0;
+    background-color: #1e1e1e;
+    color: #fff;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    width: 100vw;
+}
+
+section {
+    background-color: whitesmoke;
+    height: 750px;
+    border-radius: 8px;
+    padding: 16px;
+    border: solid 2px grey;
+}
+
+form {
+    height: 100%;
+    text-align: center;
+}
+
+/* label, input {
+    display: block;
+    text-align: center;
+} */
+
+
+#message {
+    resize: none;
+}
+
+.form-user-space {
+    display: block;
+    padding: 8px 0 8px 0;
+}
+
+
+#fieldinfo {
+    width: 150px;
+    margin: 0 auto;
+}
